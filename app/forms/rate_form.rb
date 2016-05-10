@@ -1,3 +1,4 @@
 class RateForm < Reform::Form
-  model CurrentRate
+  property :value
+  property :day
 end
